@@ -33,7 +33,7 @@ function Portfolio() {
                                     src={shopmartDemoPhoto}
                                     alt="First slide"/>
 
-                                <div className="carousel-text-right  d-none d-md-block">
+                                <div className="carousel-text-right d-block">
                                     <p className="in-section-title">Shop Mart Online Store</p>
                                     <p className="portfolio-work-desc">This is an online shopping website that allow users to browse products, register and log in.</p>
                                     <p className="portfolio-work-desc"><br/>Build with: <br/></p>
@@ -53,7 +53,7 @@ function Portfolio() {
                                     src={hachuDemoPhoto}
                                     alt="First slide"/>
 
-                                <div className="carousel-text-right  d-none d-md-block">
+                                <div className="carousel-text-right  d-block">
                                     <p className="in-section-title">Hachu Online Store</p>
                                     <p className="portfolio-work-desc">This is an online shopping website that allow users to browse products, register and log in.
                                     </p>
@@ -73,7 +73,7 @@ function Portfolio() {
                                     src={employeeDemoPhoto}
                                     alt="First slide"/>
 
-                                <div className="carousel-text-right  d-none d-md-block">
+                                <div className="carousel-text-right d-block">
                                     <p className="in-section-title">Employment management website</p>
                                     <p className="portfolio-work-desc">This website is used to manage employees and departments.</p>
                                     <p className="portfolio-work-desc"><br/>Build with: <br/></p>
