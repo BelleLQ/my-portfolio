@@ -24,7 +24,7 @@ function AboutMe() {
                 <div className="py-3">
                     <p className="in-section-title about-me-title">Master of Electrophysics</p>
                     <div className="d-flex">
-                        <p className="about-me-school d-inline-block"> Yang Ming Chiao Tung University, Taiwan</p>
+                        <p className="about-me-school d-inline-block"> Chiao Tung University, Taiwan</p>
                         <p className="d-inline-block ms-auto ">2015-2017</p>
                     </div>
                 </div>

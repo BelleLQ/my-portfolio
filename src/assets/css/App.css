@@ -42,7 +42,6 @@
     --dark-color: #343434;
     --dark-lighter-color: #444343;
     --bright-color: #FFFFFF;
-    --swiper-theme-color:var(--dark-color) !important;
 }
 /* font size for large device*/
 @media screen and (min-width:768px){
@@ -201,6 +200,18 @@ h3{
 .portfolio-section{
     background-color:#f8f9fa;
 }
+.carousel-indicators{
+    bottom: -3rem;
+}
+.carousel-indicators [data-bs-target] {
+    height: 0.5rem;
+    width:0.5rem;
+    border-radius: 50%;
+}
+.carousel-inner{
+    padding: 2rem;
+    min-height: 31rem;
+}
 
 .carousel-image-left {
     width: 100%;
@@ -227,10 +238,7 @@ h3{
 
     }
 }
-.swiper {
-    width: 100%;
-    min-height: 30rem;
-}
+
 
 .portfolio-work-desc{
     line-height: 2em;

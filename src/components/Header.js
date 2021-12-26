@@ -5,7 +5,7 @@ import { HashLink} from 'react-router-hash-link';
 function Header() {
     return (
         <header>
-            <nav className="navbar navbar-expand-lg navbar-light bg-light">
+            <nav className="navbar navbar-expand-lg navbar-light bg-light px-5">
                 <div className="container-fluid">
                     <a className="navbar-brand font-title">Belle</a>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse"
