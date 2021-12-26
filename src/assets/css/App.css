@@ -1,0 +1,277 @@
+/*table of contents
+    1. global variables
+        1) for small & medium devices
+            - font and typography
+            - font-weight
+            - color
+        2) for large devices
+
+    2. global styles
+    3. components
+        1) header
+        2) home section
+        3) about me section
+        4) portfolio section
+        5) skills section
+        6) contact me section
+*/
+
+/* ==============================
+          global variables
+   ==============================*/
+
+:root {
+    /* font and typography */
+    --title-font: 'Playball', cursive;
+    --body-font: 'Poppins', sans-serif;
+
+    --h1-font-size:1.5rem;
+    --h2-font-size:1.25rem;
+    --h3-font-size:1rem;
+    --big-font-size:2rem;
+    --normal-font-size:.94rem;
+    --small-font-size: .81rem;
+    --smaller-font-size:.75rem;
+
+    /* font-weight */
+    --font-weight-medium: 500;
+    --font-weight-bold: 600;
+
+    /* color */
+    --theme-color: #FF918D;
+    --dark-color: #343434;
+    --dark-lighter-color: #444343;
+    --bright-color: #FFFFFF;
+    --swiper-theme-color:var(--dark-color) !important;
+}
+/* font size for large device*/
+@media screen and (min-width:768px){
+    :root {
+        --h1-font-size:2.25rem;
+        --h2-font-size:1.5rem;
+        --h3-font-size:1.25rem;
+        --big-font-size:3rem;
+        --normal-font-size:1rem;
+        --small-font-size: .875rem;
+        --smaller-font-size:.813rem;
+    }
+}
+
+/* ==============================
+          global styles
+   ==============================*/
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    min-height: 100vh;
+    position: relative;
+    margin: 0;
+    padding-bottom: 16rem;
+    box-sizing: border-box;
+    margin: 0 0 3rem 0;
+    font-family: var(--body-font);
+    font-size: var(--normal-font-size);
+    background-color: white;
+    color: var(--dark-color);
+}
+
+
+a{
+    text-decoration: none;
+}
+
+img{
+    height:auto;
+    width:80%;
+    object-fit: scale-down;
+}
+
+@media screen and (min-width:768px) {
+    img{
+        width:100%;
+    }
+}
+
+ul{
+    list-style: none;
+}
+
+p{
+    margin:0;
+}
+
+button{
+    margin-top:4rem;
+}
+
+h1{
+    font-size: var(--h1-font-size);
+    font-weight: var(--font-weight-bold);
+    padding-top: 1rem;
+}
+h2{
+    font-size: var(--h2-font-size);
+}
+h3{
+    font-size: var(--h3-font-size);
+}
+
+
+/* ==============================
+          components
+   ==============================*/
+.section{
+    min-height:40rem;
+}
+.in-section-title{
+    padding-top: 2rem;
+    font-size: 1.2rem;
+    font-weight: var(--font-weight-bold);
+    padding-bottom: 3rem;
+}
+/*header*/
+
+.font-title{
+    font-family: var(--title-font);
+    font-weight: var(--font-weight-bold);
+    font-size:var(--big-font-size);
+}
+
+/*home section*/
+.home-mobile-img{
+    display: block;
+}
+.home-desktop-img{
+    display: none;
+}
+.home-pic{
+    border-radius: 10%;
+    overflow: hidden;
+}
+
+@media screen and (min-width:768px) {
+    .home-mobile-img{
+        display: none;
+    }
+    .home-desktop-img{
+        display: block;
+    }
+    .home-pic{
+        border-radius: 50%;
+        overflow: hidden;
+    }
+}
+
+
+
+.home-intro-title{
+    font-size: var(--big-font-size);
+    font-weight: var(--font-weight-bold);
+    margin-bottom: 4rem;
+}
+
+.home-links{
+    color:var(--dark-color);
+}
+
+/*about me section*/
+.about-me-section{
+    background-color:#f8f9fa;
+}
+
+.about-me-title{
+    padding:0;
+    text-align: left;
+}
+.about-me-school{
+    text-align: left;
+}
+.about-me-img{
+    border-radius: 10%;
+}
+/*portfolio section*/
+.portfolio-section{
+    background-color:#f8f9fa;
+}
+
+.carousel-image-left {
+    width: 100%;
+    height: auto;
+    border: 2px solid rgba(0,0,0,.1);
+    border-radius: 3%;
+}
+
+.carousel-text-right {
+    width: 100%;
+}
+@media screen and (min-width:768px) {
+    .carousel-image-left {
+        width: 40%;
+        float: left;
+        margin-left: 5rem;
+
+    }
+
+    .carousel-text-right {
+        float: left;
+        width: 40%;
+        margin-left: 2rem;
+
+    }
+}
+.swiper {
+    width: 100%;
+    min-height: 30rem;
+}
+
+.portfolio-work-desc{
+    line-height: 2em;
+    text-align: left;
+    padding-left:1rem;
+    color: var(--dark-lighter-color);
+
+}
+.portfolio-work-tools{
+    padding-left:2rem;
+}
+
+/*skills section*/
+.skill-item img{
+    max-width:8rem;
+    height: 16rem;
+}
+
+/*contact me section*/
+
+.smaller-text{
+    font-size: var(--small-font-size);
+}
+
+.contact-me-email{
+    font-weight: bold;
+}
+
+/*footer*/
+footer {
+    background-color:rgb(251,251,251);
+    position: absolute;
+    bottom: 0;
+    height: 16rem;
+    width:100%;
+}
+
+.footer-copyright{
+    background-color: rgba(0, 0, 0, 0.05);
+}
+.footer-thanks{
+    font-size: var(--h1-font-size);
+    font-weight:var(--font-weight-bold);
+}
