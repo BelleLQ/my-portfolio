@@ -64,7 +64,7 @@ function Portfolio() {
                                         <img className="col-3" src={reactLogo}/>
                                         <img className="col-3" src={nodejs}/>
                                     </div>
-                                    <a href="https://optimistic-thompson-bbce25.netlify.app/" target="_blank"><button type="button" className="btn btn-dark">Check it out <IoArrowForwardSharp/></button></a>
+                                    <a href="https://hachu.netlify.app/" target="_blank"><button type="button" className="btn btn-dark">Check it out <IoArrowForwardSharp/></button></a>
                                 </div>
                             </div>
                             <div className="carousel-item" data-bs-interval="2000">
