@@ -5,8 +5,6 @@ import AboutMe from '../components/AboutMe'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
 import Skills from '../components/Skills'
-import Qualification from '../components/Qualification'
-import Services from '../components/Services'
 import Portfolio from '../components/Portfolio'
 import ContactMe from '../components/ContactMe'
 

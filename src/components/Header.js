@@ -1,5 +1,4 @@
 import React from 'react';
-import {Navbar, Nav, Container} from 'react-bootstrap'
 import { HashLink} from 'react-router-hash-link';
 
 function Header() {
@@ -7,7 +6,7 @@ function Header() {
         <header>
             <nav className="navbar navbar-expand-lg navbar-light bg-light px-5">
                 <div className="container-fluid">
-                    <a className="navbar-brand font-title">Belle</a>
+                    <a className="navbar-brand font-title" href="/">Belle</a>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse"
                             data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
                             aria-expanded="false" aria-label="Toggle navigation">

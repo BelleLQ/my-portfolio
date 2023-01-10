@@ -21,8 +21,7 @@ import netlify from '../assets/images/logos/netlify-badge.webp'
 import heroku from '../assets/images/logos/heroku-badge.webp'
 import wordpress from '../assets/images/logos/wordpress-badge.webp'
 import postgre from '../assets/images/logos/postgresql-badge.webp'
-import photoshop from '../assets/images/logos/photoshop-badge.webp'
-import illustrator from '../assets/images/logos/illustrator-badge.webp'
+
 
 
 function Skills() {
@@ -118,14 +117,7 @@ function Skills() {
                 <img src={wordpress} alt="logo"/>
                 <p>WordPress</p>
             </div>
-            <div className="skill-item col-6 col-md-3 pt-5 pt-sm-5 text-center">
-                <img src={photoshop} alt="logo"/>
-                <p>PhotoShop</p>
-            </div>
-            <div className="skill-item col-6 col-md-3 pt-5 pt-sm-5 text-center">
-                <img src={illustrator} alt="logo"/>
-                <p>Illustrator</p>
-            </div>
+
 
         </div>
         </div>
