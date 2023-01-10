@@ -1,23 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="82190e9c-1119-4146-b550-26b4bff87b09" name="Changes" comment="Added more projects to my portfolio, changed my profile photo, added Github links, modified titles of my education.">
-      <change afterPath="$PROJECT_DIR$/src/components/PortfolioItem.js" afterDir="false" />
+    <list default="true" id="82190e9c-1119-4146-b550-26b4bff87b09" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/css/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/logos/min/darnell-noel-logo-white-nobg-min.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/logos/min/fb-badge-nobg-min.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/logos/min/github-badge-nobg-min.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/logos/min/linkedin-badge-nobg-min.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/logos/min/whatsapp-badge-nobg-min.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/logos/tailwind-badge.webp" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/logos/tailwind-badge.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AboutMe.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AboutMe.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Portfolio.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Portfolio.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Skills.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Skills.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/HomePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/HomePage.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +60,7 @@
       <workItem from="1661374488941" duration="254000" />
       <workItem from="1661528038991" duration="353000" />
       <workItem from="1661537796293" duration="821000" />
-      <workItem from="1673304477474" duration="4095000" />
+      <workItem from="1673304477474" duration="4957000" />
     </task>
     <task id="LOCAL-00001" summary="Changed Hachu and SHopmart URL">
       <created>1659059090547</created>
@@ -83,7 +69,21 @@
       <option name="project" value="LOCAL" />
       <updated>1659059090547</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added more projects to my portfolio, changed my profile photo, added Github links, modified titles of my education.">
+      <created>1673354568159</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1673354568159</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Added two photo to git">
+      <created>1673354710606</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1673354710606</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -104,6 +104,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Changed Hachu and SHopmart URL" />
     <MESSAGE value="Added more projects to my portfolio, changed my profile photo, added Github links, modified titles of my education." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added more projects to my portfolio, changed my profile photo, added Github links, modified titles of my education." />
+    <MESSAGE value="Added two photo to git" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added two photo to git" />
   </component>
 </project>
